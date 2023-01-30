@@ -1,0 +1,22 @@
+{
+  "name": "cypress_02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssmBoss/Cypress_02.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AssmBoss/Cypress_02/issues"
+  },
+  "homepage": "https://github.com/AssmBoss/Cypress_02#readme",
+  "dependencies": {
+    "cypress": "^12.4.1"
+  }
+}

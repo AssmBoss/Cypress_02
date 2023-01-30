@@ -1,0 +1,9 @@
+{
+    "chosenDay": ".page-nav__day_chosen",
+    "halls": "div>ul>li",
+    "loginTitle" : ".login__title",
+    "controlHall" : "#hall-control",
+    "passField":"[type='password']",
+    "mailField":"[type='email']",
+    "qr":".ticket__info-qr"
+}
