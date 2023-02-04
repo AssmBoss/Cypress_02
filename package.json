@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:booking": "cypress run --record --key 3e97d24f-b02b-41bb-b11c-179aa00659a2 --ci-build-id=4 --group booking --spec cypress/e2e/booking.cy.js",
+    "test:halls": "cypress run --record --key 3e97d24f-b02b-41bb-b11c-179aa00659a2 --ci-build-id=4 --group halls --spec cypress/e2e/halls.cy.js",
+    "test:loginAdmin": "cypress run --record --key 3e97d24f-b02b-41bb-b11c-179aa00659a2 --ci-build-id=4 --group loginAdmin --spec cypress/e2e/loginAdmin.cy.js",
+    "test:parallel": "run-p -c test:booking test:halls test:loginAdmin"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,8 @@
   "homepage": "https://github.com/AssmBoss/Cypress_02#readme",
   "dependencies": {
     "cypress": "^12.4.1"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
   }
 }
