@@ -1,4 +1,4 @@
-let sel = require('../fixtures/selectors.json')
+let sel = require('../../fixtures/selectors.json')
 
 beforeEach(() => {
   cy.visit('/')
